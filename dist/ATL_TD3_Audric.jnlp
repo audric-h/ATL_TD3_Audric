@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ATL_TD3_Audric.jnlp">
+  <information>
+    <title>ATL_TD3_Audric</title>
+    <vendor>audric</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ATL_TD3_Audric.jar" size="6254" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ATL_TD3_Audric" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="esi.atl.g39121.td3.Main"  name="ATL_TD3_Audric" />
+  <update check="always"/>
+</jnlp>
